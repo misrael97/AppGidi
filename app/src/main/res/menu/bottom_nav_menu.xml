@@ -1,14 +1,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_horarios"
-        android:icon="@drawable/calendario"
-        android:title="Horarios" />
+        android:icon="@drawable/vector_calendario"
+        android:title="Horarios"
+        />
     <item
         android:id="@+id/nav_asistencias"
-        android:icon="@drawable/temporizador"
+        android:icon="@drawable/vector_temporizador"
         android:title="Asistencias"/>
     <item
         android:id="@+id/nav_calificaciones"
-        android:icon="@drawable/calificaciones"
+        android:icon="@drawable/vector_calificaciones"
         android:title="Calificaciones"/>
 </menu>
