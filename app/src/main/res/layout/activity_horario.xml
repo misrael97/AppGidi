@@ -73,7 +73,6 @@
           android:layout_height="wrap_content"
           android:layout_marginEnd="8dp"
           android:background="@drawable/vista_horario"
-          android:backgroundTint="@color/vista_horario"
           android:text="Lunes"
           android:textColor="#0A0A0A"
 
@@ -82,38 +81,38 @@
 
       <Button
           android:id="@+id/btnMartes"
-          style="@style/Widget.MaterialComponents.Button.OutlinedButton"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginEnd="8dp"
+          android:background="@drawable/vista_horario"
           android:text="Martes"
           android:textColor="#0A0A0A"/>
 
       <Button
           android:id="@+id/btnMiercoles"
-          style="@style/Widget.MaterialComponents.Button.OutlinedButton"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="Miércoles"
           android:textColor="#0A0A0A"
+          android:background="@drawable/vista_horario"
           android:layout_marginEnd="8dp"/>
 
 
       <Button
           android:id="@+id/btnJueves"
-          style="@style/Widget.MaterialComponents.Button.OutlinedButton"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginEnd="8dp"
           android:text="Jueves"
+          android:background="@drawable/vista_horario"
           android:textColor="#0A0A0A" />
 
       <Button
           android:id="@+id/btnViernes"
-          style="@style/Widget.MaterialComponents.Button.OutlinedButton"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:textColor="#0A0A0A"
+          android:background="@drawable/vista_horario"
           android:text="Viernes"/>
     </LinearLayout>
   </HorizontalScrollView>
@@ -121,6 +120,7 @@
   <!-- Lista de materias -->
 
   <!-- Barra de navegación inferior -->
+
   <androidx.recyclerview.widget.RecyclerView
       android:id="@+id/recyclerMaterias"
       android:layout_width="0dp"
