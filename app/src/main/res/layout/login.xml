@@ -115,14 +115,14 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_rounded"
+            android:fontFamily="@font/poppins"
             android:hint="Ingresa tu contraseña"
             android:inputType="textPassword"
-            android:background="@drawable/edit_text_rounded"
             android:padding="12dp"
             android:textColor="#000000"
             android:textColorHint="#A0A0A0"
-            android:textSize="16sp"
-            android:fontFamily="@font/poppins" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/loginButton"
