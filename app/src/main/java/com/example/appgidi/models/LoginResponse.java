@@ -3,7 +3,7 @@ package com.example.appgidi.models;
 public class LoginResponse {
     private String status;
     private String msg;
-    private LoginData data;
+    private UserData data;
 
     public String getStatus() {
         return status;
@@ -13,17 +13,25 @@ public class LoginResponse {
         return msg;
     }
 
-    public LoginData getData() {
+    public UserData getData() {
         return data;
     }
 
-    public class LoginData {
+    public static class UserData {
         private int id;
         private String email;
         private String token;
 
-        public int getId() { return id; }
-        public String getEmail() { return email; }
-        public String getToken() { return token; }
+        public int getId() {
+            return id;
+        }
+
+        public String getEmail() {
+            return email;
+        }
+
+        public String getToken() {
+            return token;
+        }
     }
 }
